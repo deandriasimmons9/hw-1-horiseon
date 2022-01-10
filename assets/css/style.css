@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* apply styles to <header> */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +15,12 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+.header h1, .seo {
     display: inline-block;
     font-size: 48px;
+    color: #d9dcd6;
 }
-
+/* remove this entire css RULE */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -85,7 +86,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* benefits style start*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* benefits style end */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
